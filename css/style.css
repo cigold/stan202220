@@ -1139,8 +1139,9 @@ body a.btn-light-grey {
 
 /* Cig */
 .dashboard-bg{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(206,236,255,1) 100%); 
+    background-color: #fcfcfc !important;
+    /* background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(206,236,255,1) 100%);  */
 }
 .jumbo-rounded {
     border-radius: 15px;

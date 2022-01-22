@@ -1626,9 +1626,14 @@ pre {
 .pink-theme .btn-default,
 .pink-theme .sidebar,
 .pink-theme .sidebar .main-menu .list-group-item,
-.pink-theme .small-slide .swiper-slide .card:hover *,
+/* .pink-theme .small-slide .swiper-slide .card:hover *, */
 .pink-theme .small-slide .swiper-slide .card:focus * {
     color: #fff !important;
+    text-decoration: none;
+}
+
+.pink-theme .small-slide .swiper-slide .card:hover * {
+    color: #343a40 !important; 
 }
 
 .pink-theme .filter .form-group label {
